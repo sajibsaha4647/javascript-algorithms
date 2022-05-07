@@ -9,13 +9,3 @@ Helperarray = (arr, index) => {
 };
 
 console.log(sumOfarray([1, 3, 4]));
-
-// SumAftersliceOfArray = (n) => { //1300
-//   //slow function
-//   if (n.length === 0) return 0;
-//   let rest = n.slice(1);
-
-//   return n[0] + SumAftersliceOfArray(rest);
-// };
-
-// console.log(SumAftersliceOfArray([3, 2, 1]));
